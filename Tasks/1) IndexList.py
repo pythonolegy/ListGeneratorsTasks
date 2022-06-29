@@ -2,7 +2,7 @@ a = '79-900'
 b = '80-155'
 
 
-def kod_list(a, b):
+def code_list(a, b):
     a = int(a.replace('-', ''))
     b = int(b.replace('-', ''))
     c = []
@@ -12,4 +12,4 @@ def kod_list(a, b):
     print(c)
 
 
-kod_list(a, b)
+code_list(a, b)
